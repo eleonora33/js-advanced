@@ -1,0 +1,17 @@
+.container-app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+
+.conatiner-display{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    margin-top: 5rem;
+    padding: 5rem;
+}
