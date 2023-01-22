@@ -1,0 +1,10 @@
+.primary-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    border: 2px solid cornflowerblue;
+   
+}
