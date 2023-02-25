@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>WeatherAlert</title>
+  </head>
+  <body>
+
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+        <!-- logo -->
+        <a href="#" class="navbar-brand">
+            <img src="./img/cloudy.svg" alt="" width="30" height="30">
+        </a>
+        <!--linkovi-->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" id="statistic" aria-current="page" href="#">
+                        Statistics
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="hourly" aria-current="page" href="#">
+                        Hourly
+                    </a>
+                </li>
+                <div class="table-container"></div>
+                <li class="nav-item">
+                    <a class="nav-link" id="about" aria-current="page" href="#">
+                        About
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <input type="text" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1"id="search">
+        <input type="button" class="btn btn-primary" value="Weather info!" id="btn-submit">
+        </div>
+    </nav>
+
+
+    <!-- Pages  -->
+    <div class="error"></div>
+    <div id="pages">
+        <div class="page-statistic">
+            <h1>WeatherAlert</h1>
+            <p>The most accurate weather page in the world!<span class="tiny-text">According to some sources...</span></p>
+        </div>
+        <div class="page-hourly">
+            <h1>Hourly Data</h1>
+            <p>Here you can read the hourly weather report for the following days. Keep in mind that it is not actually every
+                hour, but every 3 - 5 hours</p>
+                <div class="container-hourly"></div>  
+        </div>
+        <div class="page-about">
+            <h1>About WeatherAlert</h1>
+            <p>The application is built by an amazing developer named <b>Eleonora Gjorgjieva</b> and it is a project built to have some
+                real world application and meaning.</p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+
+  </body>
+</html>
